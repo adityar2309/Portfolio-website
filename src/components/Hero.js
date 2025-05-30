@@ -25,36 +25,8 @@ const Hero = () => {
     },
   };
 
-  const handleDownloadResume = () => {
-    // Create a simple resume content or link to actual resume
-    const resumeContent = `
-ADITYA R
-937-362-9345 | 21f1006862@ds.study.iitm.ac.in
-linkedin.com/in/aditya-r-192a24197 | github.com/adityar2309/
-
-EDUCATION
-IIT Madras Chennai, Tamil Nadu
-Bachelor of Science (4 Year Programme) in Data Science and Applications
-2021 – 2025
-
-TECHNICAL SKILLS
-Languages: Python, SQL, JavaScript, HTML/CSS
-Frameworks: React, Django, Vue.js, Node.js, Flask, FastAPI
-Databases: MongoDB, SQLite, PostgreSQL
-Tools & Platforms: Git, Docker, Redis, Celery, Google Cloud Platform
-Libraries: pandas, NumPy, Matplotlib, scikit-learn
-    `;
-    
-    const blob = new Blob([resumeContent], { type: 'text/plain' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = 'Aditya_R_Resume.txt';
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
-  };
+  // Google Drive direct download URL
+  const resumeUrl = "https://drive.google.com/uc?export=download&id=1Maccpw3JzZJ1TS5jgg3AIbQkizHYZkWS";
 
   const scrollToContact = () => {
     document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' });
@@ -115,15 +87,17 @@ Libraries: pandas, NumPy, Matplotlib, scikit-learn
             variants={itemVariants}
             className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12"
           >
-            <motion.button
+            <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              onClick={handleDownloadResume}
+              href={resumeUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-primary"
             >
               <FiDownload />
               Download Resume
-            </motion.button>
+            </motion.a>
             
             <motion.button
               whileHover={{ scale: 1.05 }}

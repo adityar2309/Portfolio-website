@@ -4,7 +4,7 @@ import {
   SiPython, SiJavascript, SiReact, SiVuedotjs, SiNodedotjs, 
   SiFlask, SiDjango, SiFastapi, SiMongodb, SiPostgresql, 
   SiDocker, SiRedis, SiGit, SiGooglecloud, SiPandas, 
-  SiNumpy, SiScikitlearn, SiHtml5, SiCss3 
+  SiNumpy, SiScikitlearn, SiHtml5 
 } from 'react-icons/si';
 import { FiDatabase } from 'react-icons/fi';
 

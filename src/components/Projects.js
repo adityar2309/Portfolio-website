@@ -8,8 +8,8 @@ const Projects = () => {
       title: "Multilingual Translation Platform",
       description: "A full-stack multilingual translation platform with grammar analysis, pronunciation guidance, and cultural insights using Google Cloud APIs and Gemini AI.",
       technologies: ["Python", "Flask", "React", "Google Cloud", "Gemini API"],
-      githubUrl: "#",
-      liveUrl: "#",
+      githubUrl: "https://github.com/adityar2309/TTSAI",
+      liveUrl: "https://ttsai.netlify.app/",
       features: [
         "Real-time translation with cultural context",
         "Pronunciation guidance and audio feedback",
@@ -21,8 +21,8 @@ const Projects = () => {
       title: "Vehicle Parking Management",
       description: "A comprehensive web application with role-based dashboards for managing parking lot bookings, pricing, and availability with automated notifications.",
       technologies: ["Python", "Flask", "React", "MongoDB", "Redis", "Celery"],
-      githubUrl: "#",
-      liveUrl: "#",
+      githubUrl: "https://github.com/adityar2309/Vehicle-Parking-App",
+      liveUrl: "https://vehicle-parking-app.netlify.app",
       features: [
         "Role-based admin and user dashboards",
         "Automated email notifications",
@@ -34,7 +34,7 @@ const Projects = () => {
       title: "Ticketify - Ticket Booking System",
       description: "A full-stack ticket booking application with robust database design and automated background tasks for enhanced user experience.",
       technologies: ["Python", "Flask", "Vue.js", "SQLite", "Docker"],
-      githubUrl: "#",
+      githubUrl: "https://github.com/adityar2309/TICKETIFY",
       liveUrl: null,
       features: [
         "6 interconnected database models",
@@ -47,7 +47,7 @@ const Projects = () => {
       title: "Movie Review Sentiment Analysis",
       description: "A machine learning pipeline for movie sentiment prediction achieving 80%+ accuracy across multiple classification models.",
       technologies: ["Python", "Scikit-learn", "Pandas", "NumPy"],
-      githubUrl: "#",
+      githubUrl: "https://github.com/adityar2309/ADITYA-MOVIETICKET-VUEJSFLASK",
       liveUrl: null,
       features: [
         "Multiple ML model comparison",

@@ -35,7 +35,7 @@ const Projects = () => {
       description: "A full-stack ticket booking application with robust database design and automated background tasks for enhanced user experience.",
       technologies: ["Python", "Flask", "Vue.js", "SQLite", "Docker"],
       githubUrl: "https://github.com/adityar2309/TICKETIFY",
-      liveUrl: null,
+      liveUrl: "https://ticketiify.netlify.app",
       features: [
         "6 interconnected database models",
         "JWT authentication and authorization",
@@ -47,8 +47,8 @@ const Projects = () => {
       title: "Movie Review Sentiment Analysis",
       description: "A machine learning pipeline for movie sentiment prediction achieving 80%+ accuracy across multiple classification models.",
       technologies: ["Python", "Scikit-learn", "Pandas", "NumPy"],
-      githubUrl: "https://github.com/adityar2309/ADITYA-MOVIETICKET-VUEJSFLASK",
-      liveUrl: null,
+      githubUrl: "https://github.com/adityar2309/movie-sentiment-analyzer",
+      liveUrl: "https://movie-sentiment-ai.netlify.app/",
       features: [
         "Multiple ML model comparison",
         "TF-IDF vectorization pipeline",

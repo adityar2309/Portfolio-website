@@ -204,17 +204,10 @@ const Projects = () => {
 
                 {/* Project Footer */}
                 <div className="px-6 py-4 bg-gray-50 dark:bg-gray-800 border-t border-gray-100 dark:border-gray-700">
-                  <div className="flex justify-between items-center">
+                  <div className="text-center">
                     <span className="text-sm text-gray-500 dark:text-gray-400">
                       {project.liveUrl ? 'Live & Source Available' : 'Source Available'}
                     </span>
-                    <motion.button
-                      whileHover={{ scale: 1.05 }}
-                      whileTap={{ scale: 0.95 }}
-                      className="text-primary-600 dark:text-primary-400 font-medium text-sm hover:underline"
-                    >
-                      View Details →
-                    </motion.button>
                   </div>
                 </div>
               </motion.div>

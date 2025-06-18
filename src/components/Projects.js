@@ -44,6 +44,20 @@ const Projects = () => {
       ]
     },
     {
+      title: "SynergySphere - Team Collaboration Platform",
+      description: "🏆 Built by Team 336 for the Odoo Hackathon. An advanced, AI-powered project management and team collaboration platform designed to help teams operate at their peak performance with intelligent insights and real-time collaboration.",
+      technologies: ["React", "Flask", "PostgreSQL", "Socket.IO", "Tailwind CSS", "SQLAlchemy", "Redis"],
+      githubUrl: "https://github.com/your-github/SynergySphere_336",
+      liveUrl: "https://voluble-tapioca-bc2df4.netlify.app",
+      features: [
+        "AI-powered task prioritization and deadline risk assessment",
+        "Real-time collaboration with task-level chat and @mentions",
+        "Comprehensive financial management with budget tracking",
+        "Predictive analytics and project health scoring",
+        "Mobile-responsive design for work anywhere"
+      ]
+    },
+    {
       title: "Movie Review Sentiment Analysis",
       description: "A machine learning pipeline for movie sentiment prediction achieving 80%+ accuracy across multiple classification models.",
       technologies: ["Python", "Scikit-learn", "Pandas", "NumPy"],
